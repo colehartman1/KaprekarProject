@@ -28,6 +28,7 @@ int isKaprekar(int n) {
     return false;
   }
   int numberOfDigits;
+  int modulous;
   int i;
   //compute the square
   long square = n * (long) n;
